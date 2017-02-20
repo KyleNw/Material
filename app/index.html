@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>material</title>
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
 
@@ -37,16 +40,332 @@
         <li>jQuery</li>
       </ul>
     </div>-->
+
+
+     <div class="navbar">
     <nav>
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo">Logo</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">JavaScript</a></li>
+    <div class="nav-wrapper pink">
+      <a  id="logo" href="#!" class="brand-logo home">Kyle Designs.</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul id="navRight" class="right hide-on-med-and-down">
+        <li><a class="home" href="#"><i class="material-icons left">perm_identity</i>Home</a></li>
+        <li><a class="page2Btn" href="#"><i class="material-icons left">work</i>Portfolio</a></li>
+        <li><a class="page3Btn" href="#"><i class="material-icons left">email</i>Contact</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a class="home" href="#"><i class="material-icons left">perm_identity</i>Home</a></li>
+        <li><a class="page2Btn" href="#"><i class="material-icons left">work</i>Portfolio</a></li>
+        <li><a class="page3Btn" href="#"><i class="material-icons left">email</i>Contact</a></li>
       </ul>
     </div>
   </nav>
+</div>
+<!-- end nav bar -->
+
+
+
+<!--About me page-->
+ <div id="page1">
+   <div class="container">
+     <div class="row">
+       <div id="homeText" class="col s12">
+         <h1>Kyle Wilson</h1>
+         <hr id="homeHr">
+         <h5>Web Designer, Graphic Designer, Artist</h5>
+        </div>
+      </div>
+    </div><br>
+    <div class="container">
+      <div class="row">
+        <div id="bioTitle" class="col l12 s12">
+          <h3>Bio</h3>
+        </div>
+      </div>
+    </div>
+    
+      
+   
+
+
+   
+</div>
+
+
+<!--Work page-->
+      <div id="page2">
+         <div class="container">
+           <div class="row">
+             <h1>Work</h1>
+             <div id="showcase">
+             <small id="work2">A Showcase of Design</small>
+             </div>
+             <hr id="work">
+            </div>
+
+           </div><br><br>
+        
+<!-- line one -->
+          <!--<div class="container">
+            <div class="row">
+                <div class="neatLarge col l7">
+                  <img src="images/design4.jpg" alt="Avatar" class="hoverable image" width="100%" height="300px">
+                  <div class="overlay hoverable">
+                    <div class="text">
+                      <p class="check">Check it out<p>
+                      <input  class="btnYou hoverable" type="button" value="pls wrk">
+                    </div>
+                  </div>
+                </div>
+            
+
+              
+                <div class="neatSmall col l5">
+                  <img id="picture1" src="images/house.jpg" alt="Avatar" class="hoverable" width="100%" height="300px">
+                  <div class="overlaySmall hoverable">
+                    <div class="text">
+                      <p class="check">Check it out<p>
+                      <input id="light1" class="btnYou hoverable" type="button" value="pls wrk">
+                    </div>
+                  </div>
+                </div>
+              
+              
+
+
+              </div>
+            </div><br><br>-->
+
+<!-- line two -->
+
+         <!--<div class="container">
+            <div class="row">
+
+
+              <div class="neatSmall col l5">
+                  <img id="picture2" src="images/logo2.png" alt="Avatar" class="hoverable" width="100%" height="300px">
+                  <div class="overlaySmall hoverable">
+                   <div class="text">
+                      <p class="check">Check it out<p>
+                      <input id="light2" class="btnYou hoverable" type="button" value="pls wrk">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="neatLarge col l7">
+                  <img src="images/tvman.png" alt="Avatar" class="hoverable image" width="100%" height="300px">
+                  <div class="overlay hoverable">
+                   <div class="text">
+                      <p class="check">Check it out<p>
+                      <a href="https://www.youtube.com/watch?v=JVQvkzBzfP0&t=64s"><input class="btnYou hoverable" type="button" value="pls wrk"></a>
+                    </div>
+                  </div>
+                </div>
+          
+              </div>
+            </div>-->
+
+<!--gallery with flip animation-->
+
+          <div class="container">
+            <div class="row">
+              <div class="f1_container neatLarge col l7">
+<div class="f1_card shadow">
+  <div class="front face">
+    <img class="pls2" src="images/design4.jpg"/>
+  </div>
+  <div class="back face center">
+    <p>This is nice for exposing more information about an image.</p>
+    <p>Any content can go here.</p>
+    <input id="goStudy" type="button" class="btnYou hoverable" value="BUTTON">
+  </div>
+</div>
+</div>
+
+<div class="f1_container neatSmall col l5">
+<div class="f1_card shadow">
+  <div class="front face">
+    <img id="picture1" class="pls2" src="images/house.jpg"/>
+  </div>
+  <div class="back face center">
+    <p>This is nice for exposing more information about an image.</p>
+    <p>Any content can go here.</p>
+    <input id="light1" type="button" class="btnYou hoverable" value="BUTTON">
+  </div>
+</div>
+</div>
+
+
+              </div>
+            </div><br><br>
+
+
+            <!--Line dos-->
+
+
+            <div class="container">
+              <div class="row">
+                <div class="f1_container neatSmall col l5">
+<div class="f1_card shadow">
+  <div class="front face">
+    <img id="picture2" class="pls" src="images/logo2.png"/>
+  </div>
+  <div class="back face center">
+    <p>This is nice for exposing more information about an image.</p>
+    <p>Any content can go here.</p>
+    <input id="light2" type="button" class="btnYou hoverable" value="BUTTON">
+  </div>
+</div>
+</div>
+
+ <div class="f1_container neatLarge col l7">
+<div class="f1_card shadow">
+  <div class="front face">
+    <img id="picture2" class="pls2" src="images/tvman.png"/>
+  </div>
+  <div class="back face center">
+    <p>This is nice for exposing more information about an image.</p>
+    <p>Any content can go here.</p>
+    <a href="https://www.youtube.com/watch?v=JVQvkzBzfP0&t=64s"><input class="btnYou hoverable" type="button" value="pls wrk"></a>
+  </div>
+</div>
+</div>
+              </div>
+            </div>
+
+
+
+
+    <!-- light b0x -->
+              <div id="myModal" class="modal">
+
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+      </div>
+
+  
+
+      
+<!--Study page-->
+
+
+ <!--study page-->
+     <div id="study">
+       <div id="titleStudy" class="container">
+         <h2>Work case study</h2>
+         <hr>
+         </div><br><br>
+       <div class="container">
+         <div class="row">
+           <div class="col l7">
+             <img id="light3" class="smaller" src="images/design4.jpg">
+          </div>
+            <div class="col l5">
+              <p class="studyInfo2"> ughgaeiughaewiughaeriughriupgbpeiubgiupebgpiwfb</p>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col l7">
+            <p class="studyInfo">iuwebfiuqewbgiuerbguebguebguewibgeiubgueibgiue</p>
+          </div>
+          <div class="col l5">
+            <img id="light4" class="smaller" src="images/design2.jpg">
+          </div>
+        </div>
+        <div class="row">
+           <div class="col l7">
+             <img id="light5" class="smaller" src="images/design.jpg">
+          </div>
+            <div class="col l5">
+              <p class="studyInfo2"> ughgaeiughaewiughaeriughriupgbpeiubgiupebgpiwfb</p>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col l7">
+            <p class="studyInfo">iuwebfiuqewbgiuerbguebguebguewibgeiubgueibgiue</p>
+          </div>
+          <div class="col l5">
+            <img id="light6" class="smaller" src="images/design3.jpg">
+          </div>
+        </div>
+      </div>
+       </div>
+        
+
+
+
+
+
+         
+        
+           
+       
+      
+
+    
+
+<!--Contact page-->
+       <div id="page3"><br><br>
+        <div class="container">
+          <h1> Contact Me</h1>
+          <div class="move">
+          <small>Currently available for Contract Work</small><br>
+         <small id="small1"> I would love to hear from you</small>
+         </div>
+          <hr>
+
+          </div><br><br>
+
+          
+
+           <div id="form" class="container ">
+    <form class="col s12">
+      <div class="container">
+          <div class="row">
+        <div class="input-field col s12">
+          <input id="first_name" type="text" class="validate">
+          <label for="first_name">First Name</label>
+        </div>
+        </div>
+        </div>
+        <div class="container">
+            <div class="row">
+        <div class="input-field col s12">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+      </div>
+      
+      
+      <div class="container">
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+      </div>
+      <div class="container">
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">Message</label>
+        </div>
+      </div>
+      </div>
+    </form>
+    <div id="shit" class="container">
+            <p id="p1">Kylejaywilson123@gmail.com</p>
+            <p id="p2">Orlando, Florida</p>
+            <p id="p3"><a class="link" href="#">FaceBook </a>/<a class="link" href="#"> Instagram </a>/<a class="link" href="#"> SoundCloud </a></p>
+          </div>
+  </div>
+
+
+      </div>
+  
     
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
@@ -63,6 +382,7 @@
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <script src="/bower_components/materialize/bin/materialize.js"></script>
+    <script src="/bower_components/d3/d3.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
     
