@@ -5,10 +5,13 @@
     "jquery": "~2.1.1",
     "modernizr": "~2.8.1",
     "materialize": "^0.98.0",
-    "d3": "^4.6.0"
+    "d3": "v3.5.17"
   },
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.2.0"
+  },
+  "resolutions": {
+    "d3": "v3.5.17"
   }
 }

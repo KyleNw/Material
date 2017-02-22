@@ -39,7 +39,7 @@ h1{
 }
 
 
-
+/*home page*/
 #page1{
     /*background-image: url("img/home4.jpeg");
     height: 100%;
@@ -48,6 +48,15 @@ h1{
     background-size: cover;
      background-attachment: fixed;*/
 }
+#bio{
+    width: 50%;
+    margin-left: 26%;
+    font-weight: 600;
+    line-height: 170%;
+}
+
+/*end home*/
+
 img{
     border-radius: 5px;
 }
@@ -60,6 +69,7 @@ img{
 }
 p{
     padding-bottom: 5%;
+    line-height: 150%;
 }
 .btnYou{
     background-color: white;
@@ -88,6 +98,23 @@ p{
 h2{
     text-align: center;
 }
+#jalepinos{
+    margin-left: 34%;
+    margin-top: 2%;
+}
+#studyhr{
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 60%;
+}
+#restaurant{
+    width: 70%;
+    margin-left: 17%;
+    margin-top: -3%;
+}
+/* study over*/
+
+
 .smaller{
     width: 100%;
 }
@@ -154,6 +181,25 @@ small{
 }
 h5{
     margin-left: 29%;
+}
+h3{
+    text-align: center;
+}
+.ed1{
+    margin-left: 40%;
+}
+span{
+    padding-right: 25px;
+    font-size: 28px;
+    
+}
+.ed2{
+    float: left;
+    margin-right: 100px;
+    margin-left: 30%;
+}
+.ed3{
+    float: left;
 }
 
 
@@ -348,6 +394,50 @@ h5{
 }
 
 /*d3 graph*/
+.horizontal-bar-graph {
+  display: table;
+  width: 50%;
+}
+
+.horizontal-bar-graph-segment {
+  display: table-row;
+}
+
+.horizontal-bar-graph-label {
+  display: table-cell;
+  border-right: 1px solid silver; 
+  text-align: right;
+  padding: 4px 10px 4px 0;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.horizontal-bar-graph-value {
+  display: table-cell;
+  padding: 3px 0;
+  vertical-align: baseline;
+  width: 100%;
+}
+
+.horizontal-bar-graph-value-bar {
+  background: silver;
+  
+  padding: 4px 4px 3px;
+  height: 2em;
+  text-align: right;
+  color: white;
+  overflow: visible;
+  display: inline-block;
+  white-space: nowrap;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+#my-graph{
+    margin-left: 20%;
+}
+
+
 
 
 
