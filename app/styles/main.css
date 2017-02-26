@@ -72,6 +72,20 @@ h1{
 .ed3{
     float: left;
 }
+#homeText{
+    padding-top: 5%;
+}
+#homeHr{
+   border: none;
+   background-color: black;
+    height: 2px;
+}
+h5{
+    margin-left: 20%;
+}
+h3{
+    text-align: center;
+}
 
 
 /*end home*/
@@ -195,29 +209,8 @@ small{
     margin-left: 6%;
     margin-top: -2%;
 }
-/*home page*/
-#homeText{
-    padding-top: 5%;
-}
-#homeHr{
-   border: none;
-   background-color: black;
-    height: 2px;
-}
-h5{
-    margin-left: 29%;
-}
-h3{
-    text-align: center;
-}
-.ed1{
-    margin-left: 40%;
-}
-span{
-    padding-right: 25px;
-    font-size: 28px;
-    
-}
+
+
 
 
 /*overlay*/
