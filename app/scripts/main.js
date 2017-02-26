@@ -17,7 +17,7 @@
 
        $('.home').click(function(){
             
-            $('#page1').fadeIn(2500);
+            $('#page1').fadeIn(1000);
             $('#page2').hide();
             $('#page3').hide();
             $('#study').hide()
@@ -26,7 +26,7 @@
 
         $('.page2Btn').click(function(){
            
-           $('#page2').fadeIn(2500);
+           $('#page2').fadeIn(1000);
             $('#page3').hide();
             $('#page1').hide();
             $('#study').hide()
@@ -37,13 +37,13 @@
         $('.page3Btn').click(function(){
            
             $('#page2').hide();
-            $('#page3').fadeIn(2500);
+            $('#page3').fadeIn(1000);
             $('#page1').hide();
             $('#study').hide()
            
        });
        $('#goStudy').click(function(){
-            $('#study').fadeIn(2500);
+            $('#study').fadeIn(1000);
             $('#page2').hide();
             $('#page3').hide();
             $('#page1').hide();
@@ -91,7 +91,7 @@ span.onclick = function() {
 
 var getGraph = function(){
 
-HorizontalBarGraph = function(el, series) {
+ var HorizontalBarGraph = function(el, series) {
   this.el = d3.select(el);
   this.series = series;
 };
