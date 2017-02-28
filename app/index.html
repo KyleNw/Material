@@ -31,15 +31,7 @@
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     
-    <!--<div class="hero-unit">
-      <h1>'Allo, 'Allo!</h1>
-      <p>You now have</p>
-      <ul>
-        <li>HTML5 Boilerplate</li>
-        <li>Modernizr</li>
-        <li>jQuery</li>
-      </ul>
-    </div>-->
+    
 
 
      <div class="navbar">
@@ -65,54 +57,178 @@
 
 
 <!--About me page-->
-<div class="backGroundImg">
- <div id="page1">
+
+ <div id="page1" class="hoverable">
    <div class="container">
      <div class="row">
        <div id="homeText" class="col s12 l12">
-         <h1>Kyle Wilson</h1>
-         <hr id="homeHr">
+         <div id="btnBox">
+          <input class="aboutMe btnYou goBio" type="button" value="Biography">
+          <input class="aboutMe btnYou goEdo" type="button" value="Education">
+          <input class="aboutMe btnYou goHistory" type="button" value="Work History">
+          <input class="aboutMe btnYou goSkillz" type="button" value="Skills">
+        </div>
+         <h1 id="slideLeft">Kyle Wilson</h1>
+         <hr class="homeHr">
          <h5>Web Designer, Graphic Designer, Artist</h5>
+         
         </div>
       </div>
     </div><br>
-    <div class="container">
+    <!--<div class="container">
       <div class="row">
         <div id="bioTitle" class="col l12 s12">
           <h3>Bio</h3>
+          <hr>
           <div id="bio" class="l12 s12">
-          <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-             ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
-             ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-             fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-             proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
+          <p>Kyle Wilson is a 24 year old web designer/graphic designer. He currently resides in Orlando, Florida while he attends school at University of Central Florida.
+            In his spare time he writing music and playing with his band.</p>
         </div>
         </div>
       </div>
         <div class="row">
           <h3>Education</h3>
+          <hr>
             <div class="ed2">
-              <h3>blahhh</h3>
-              <h5> pls work</h5>
+              <h5>University of Central Florida</h5><br>
+              <h6> B.A. In Digital Media</h6>
             </div>
-            <div class="ed3">
-              <h3>blahhh</h3>
-           </div>
+            <div>
         </div>
     </div>
+    <hr class="edu">
+    <div class="row">
+      <div class="ed3">
+        <h5 clas="state">State College of Florida</h5><br>
+        <h6 id="general">A.A. General Studies</h6>
+      </div>  
+    </div><hr class="edu">
       <div class="container">
-      <div class="row">
+      <div class="row"><br>
+        <h3>Skill Sets</h3>
+        <hr>
           <div class="horizontal-bar-graph" id="my-graph"></div>
       </div>
+      </div>-->
+</div>
+
+
+<!--Skills page-->
+<div id="skillz">
+  <div class="container">
+    <div class="row">
+      <div class="btnBoxSkill">
+       <input class="aboutMe btnYou goBio" type="button" value="Biography">
+       <input class="aboutMe btnYou goEdo" type="button" value="Education">
+       <input class="aboutMe btnYou goHistory" type="button" value="Work History">
+       <input class="aboutMe btnYou goSkillz" type="button" value="Skills">
       </div>
+      <h2>I have a Particular set of skills</h2>
+        <hr class="homeHr">
+        <div class="horizontal-bar-graph" id="my-graph"></div>
+        <div id="arrowLeft">
+        <a class="goHistory" href="#"> <img src="images/arrowLeft.png"></a>
+        </div>
+        <div id="arrowRight">
+          <a class="home" href="#"> <img src="images/arrowRight.png"></a>
+        </div>
+    </div>
+  </div>
 </div>
+
+<!--Work ethic-->
+<div id="workHistory">
+  <div class="container">
+    <div class="row">
+       <div class="btnBoxSkill">
+       <input class="aboutMe btnYou goBio" type="button" value="Biography">
+       <input class="aboutMe btnYou goEdo" type="button" value="Education">
+       <input class="aboutMe btnYou goHistory" type="button" value="Work History">
+       <input class="aboutMe btnYou goSkillz" type="button" value="Skills">
+      </div>
+      <h2>It's all about the Work Ethic</h2>
+       <div id="arrowLeft">
+        <a class="goEdo" href="#"> <img src="images/arrowLeft.png"></a>
+        </div>
+        <div id="arrowRight">
+          <a class="goSkillz" href="#"><img src="images/arrowRight.png"></a>
+        </div>
+    </div>
+  </div>
 </div>
+
+<!--Edumacation page-->
+
+<div id="educationPage">
+  <div class="container">
+    <div class="row">
+       <div class="btnBoxSkill">
+       <input class="aboutMe btnYou goBio" type="button" value="Biography">
+       <input class="aboutMe btnYou goEdo" type="button" value="Education">
+       <input class="aboutMe btnYou goHistory" type="button" value="Work History">
+       <input class="aboutMe btnYou goSkillz" type="button" value="Skills">
+      </div>
+      <h2>Yeah, I got learned</h2><br>
+      <div class="row">
+         <h3>Education</h3>
+          <hr>
+            <div class="ed2">
+              <h5>University of Central Florida</h5><br>
+              <h6> B.A. In Digital Media</h6>
+            </div>
+    </div>
+    <hr class="edu">
+    <div class="row">
+      <div class="ed3">
+        <h5 clas="state">State College of Florida</h5><br>
+        <h6 id="general">A.A. General Studies</h6>
+      </div>  
+    </div>
+    <hr class="edu">
+       <div id="arrowLeft">
+        <a class="goBio" href="#"> <img src="images/arrowLeft.png"></a>
+        </div>
+        <div id="arrowRight">
+          <a class="goHistory" href="#"><img src="images/arrowRight.png"></a>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!--Bio Page-->
+ 
+ <div id="bioPage">
+  <div class="container">
+    <div class="row">
+       <div class="btnBoxSkill">
+       <input class="aboutMe btnYou goBio" type="button" value="Biography">
+       <input class="aboutMe btnYou goEdo" type="button" value="Education">
+       <input class="aboutMe btnYou goHistory" type="button" value="Work History">
+       <input class="aboutMe btnYou goSkillz" type="button" value="Skills">
+      </div>
+      <h2>Bio</h2>
+      <div id="bio" class="row">
+          <hr>
+          <p>Kyle Wilson is a 24 year old web designer/graphic designer. He currently resides in Orlando, Florida while he attends school at University of Central Florida.
+            In his spare time he writing music and playing with his band.
+          </p>
+      </div>
+       <div id="arrowLeft">
+        <a class="home" href="#"> <img src="images/arrowLeft.png"></a>
+        </div>
+        <div id="arrowRight">
+          <a class="goEdo" href="#"><img src="images/arrowRight.png"></a>
+        </div>
+    </div>
+  </div>
+</div>
+
 
 
 <!--Work page-->
-    <div class="backGroundImg">
+   
       <div id="page2">
-         <div class="container">
+         <div class="container col s5">
            <div class="row">
              <h1 id="lower">Work</h1>
              <div id="showcase">
@@ -187,28 +303,30 @@
 
           <div class="container">
             <div class="row">
-              <div class="f1_container neatLarge col l7">
+              <div class="f1_container neatLarge col l7 s12">
 <div class="f1_card shadow">
   <div class="front face">
     <img class="pls2" src="images/design4.jpg"/>
   </div>
   <div class="back face center">
-    <p>This is nice for exposing more information about an image.</p>
+    <p>This was a rebranding of a restaurant called Jalepinos</p>
     <p>Any content can go here.</p>
-    <input id="goStudy" type="button" class="btnYou hoverable" value="BUTTON">
+    <input id="goStudy" type="button" class="btnYou hoverable" value="View Study">
   </div>
 </div>
 </div>
 
-<div class="f1_container neatSmall col l5">
+<div class="f1_container neatSmall col l5 s12">
 <div class="f1_card shadow">
   <div class="front face">
     <img id="picture1" class="pls2" src="images/house.jpg"/>
   </div>
   <div class="back face center">
-    <p>This is nice for exposing more information about an image.</p>
-    <p>Any content can go here.</p>
-    <input id="light1" type="button" class="btnYou hoverable" value="BUTTON">
+    <p>Tools:</p>
+    <p class="description">Autodesk Maya and Adobe Photoshop</p>
+    <p>Description:</p>
+    <p class="description">Using Maya and Photoshop, I created a 3D scenery piece.</p>
+    <input id="light1" type="button" class="btnYou hoverable" value="Closer Look">
   </div>
 </div>
 </div>
@@ -223,20 +341,22 @@
 
             <div class="container">
               <div class="row">
-                <div class="f1_container neatSmall col l5">
+                <div class="f1_container neatSmall col l5 s12">
 <div class="f1_card shadow">
   <div class="front face">
     <img id="picture2" class="pls" src="images/logo2.png"/>
   </div>
   <div class="back face center">
-    <p>This is a logo That I designed for a toy store compnay.</p>
-    <p>Any content can go here.</p>
+    <p>Tools:</p>
+    <p class="description">Adobe Photoshop</p>
+    <p>Description:</p>
+    <p class="description">Using Photoshop I ceated a logo for a local toy store company</p>
     <input id="light2" type="button" class="btnYou hoverable" value="Closer Look">
   </div>
 </div>
 </div>
 
- <div class="f1_container neatLarge col l7">
+ <div class="f1_container neatLarge col l7 s12">
 <div class="f1_card shadow">
   <div class="front face">
     <img id="picture2" class="pls2" src="images/tvman.png"/>
@@ -249,7 +369,7 @@
 </div>
 </div>
               </div>
-            </div>
+           
 
 
 
@@ -273,7 +393,7 @@
  <!--study page-->
      <div id="study">
        <div id="titleStudy" class="container">
-         <h2>Work case study</h2>
+         <h2 id="workCase">Work case study</h2>
          <h5 id="jalepinos">Jalepinos Mexican bar &amp; Grill
          <hr id="studyhr">
          </div>
@@ -331,6 +451,7 @@
     
 
 <!--Contact page-->
+      
         <div id="page3"><br><br>
         <div class="container">
           <h1> Contact Me</h1>
@@ -393,7 +514,28 @@
 
 
       </div>
+    
 
+    <!--footer-->
+      <!--<footer class="page-footer pink">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>-->
   
     
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

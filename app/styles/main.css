@@ -6,7 +6,17 @@ body html{
 }
 body{
     /*background-color:#eceff1;*/
+    /*filter: blur(2px);*/
     font-family: 'Roboto Slab', serif;
+     background-image: url("../images/cali1.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    z-index: -1;
+    
 }
 
 #logo{
@@ -40,48 +50,83 @@ h1{
 
 
 /*home page*/
-.backGroundImg{
-    background-image: url("../images/cali1.jpg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    z-index: -1;
-    /*filter: blur(5px);*/
-}
+
 #bio{
     width: 50%;
     margin-left: 26%;
     font-weight: 600;
     line-height: 170%;
 }
+.aboutMe{
+    display: inline;
+    margin-left: 5%;
+}
+.aboutMe:hover{
+    -webkit-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    -ms-transition: background-color 400ms linear;
+     transition: background-color 400ms linear;
+     background-color: #ec407a;
+    
+    
+    
+}
+#btnBox{
+    margin-left: 8%;
+    padding-top: 5%;
+}
 #page1{
-    width: 70%;
+    width: 80%;
     z-index: 900;
     background-color: white;
-    margin-left: 12%;
-    height: 100%;
+    margin-left: 10%;
+    height: 0%;
+    margin-top: 8%;
+    transition: box-shadow .25s;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.inUse{
+    background-color: #ec407a
 }
 
+
 .ed2{
-    float: left;
-    margin-right: 100px;
-    margin-left: 23%;
+    margin-left: 10%;
 }
+
+
 .ed3{
-    float: left;
+    padding-top: .5%;
+    margin-left: 14%;
+}
+h6{
+    font-size: 18px;
+    padding-left: 34%;
+    /*padding-bottom: 10%;*/
+    margin-top: -2%;
+    color: #ec407a
+}
+
+#general{
+    margin-left: -2.5%;
+}
+.edu{
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: -1%;
 }
 #homeText{
     padding-top: 5%;
 }
-#homeHr{
+.homeHr{
    border: none;
    background-color: black;
     height: 2px;
 }
 h5{
-    margin-left: 20%;
+    margin-left: 24.6%;
 }
 h3{
     text-align: center;
@@ -89,6 +134,122 @@ h3{
 
 
 /*end home*/
+
+/*Work History*/
+#workHistory{
+    background-color: white;
+    width: 80%;
+    margin-left:10%;
+    margin-top:8%;
+    transition: box-shadow .25s;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10%;
+
+}
+/*End work history*/
+
+/*education page*/
+#educationPage{
+    background-color: white;
+    width: 80%;
+    margin-left:10%;
+    margin-top:8%;
+    transition: box-shadow .25s;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10%;
+}
+
+/*end education*/
+
+/*Bio page*/
+#bioPage{
+     background-color: white;
+    width: 80%;
+    margin-left:10%;
+    margin-top:8%;
+    transition: box-shadow .25s;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10%;
+}
+
+/*end bio page*/
+
+/*skills page*/
+#skillz{
+    background-color: white;
+    width: 80%;
+    margin-left:10%;
+    margin-top:8%;
+    transition: box-shadow .25s;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10%;
+}
+.btnBoxSkill{
+    padding-top: 5%;
+    margin-left: 9%;
+}
+
+#arrowLeft{
+    
+    
+    display: inline;
+   
+}
+#arrowRight{
+    float:right;
+    
+    
+}
+
+/*d3 graph*/
+.horizontal-bar-graph {
+  display: table;
+  width: 80%;
+}
+
+.horizontal-bar-graph-segment {
+  display: table-row;
+}
+
+.horizontal-bar-graph-label {
+  display: table-cell;
+  border-right: 1px solid silver; 
+  text-align: right;
+  padding: 4px 10px 4px 0;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.horizontal-bar-graph-value {
+  display: table-cell;
+  padding: 3px 0;
+  vertical-align: baseline;
+  width: 100%;
+}
+
+.horizontal-bar-graph-value-bar {
+  background: silver;
+  
+  padding: 4px 4px 3px;
+  height: 2em;
+  text-align: right;
+  color: white;
+  overflow: visible;
+  display: inline-block;
+  white-space: nowrap;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+#my-graph{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 10%;
+}
+
+/*end Skillz*/
+
+/*portfolio*/
 
 img{
     border-radius: 5px;
@@ -99,13 +260,19 @@ img{
     width: 80%;
     margin-left:10%;
     background-color: white;
+    transition: box-shadow .25s;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.description{
+    margin-top: -8%;
+}
+
+
+/*end portfolio*/
 #lower{
     padding-top: 5.1%;
 }
-#page3{
-    padding-bottom: 50px;
-}
+
 p{
     padding-bottom: 5%;
     line-height: 150%;
@@ -121,7 +288,20 @@ p{
     /*border: white 2px solid;*/
     
 }
+
 /*Study page*/
+#study{
+    background-color: white;
+    width: 80%;
+    margin-left: 10%;
+    height: 100%;
+    margin-top: -2%;
+    transition: box-shadow .25s;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#workCase{
+    padding-top: 7%;
+}
 
 .studyInfo{
     text-align: center;
@@ -174,11 +354,23 @@ hr{
     margin-left: 40%;
     margin-right: 40%;
 }
+
+/*Contact page*/ 
+
+#page3{
+    padding-bottom: 50px;
+    background-color: white;
+    width: 80%;
+    margin-left: 10%;
+    transition: box-shadow .25s;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 #small1{
-    margin-left: 42.5%;
+    margin-left: 41%;
 }
 small{
-    margin-left: 41%;
+    margin-left: 38.5%;
     padding-bottom: 5%;
 }
 #shit{
@@ -199,6 +391,23 @@ small{
 .move{
     margin-top: -2%;
 }
+
+@media screen and (max-width: 642px) {
+    small{
+        margin-left: 30%
+    }
+    #small1{
+        margin-left: 35%;
+    }
+    .move {
+    margin-top: -2%;
+    margin-left: -13%;
+}
+}
+
+/*end contact*/
+
+
 #bioTitle{
     text-align: center;
 }
@@ -403,49 +612,7 @@ small{
     height: 105%;
 }
 
-/*d3 graph*/
-.horizontal-bar-graph {
-  display: table;
-  width: 50%;
-}
 
-.horizontal-bar-graph-segment {
-  display: table-row;
-}
-
-.horizontal-bar-graph-label {
-  display: table-cell;
-  border-right: 1px solid silver; 
-  text-align: right;
-  padding: 4px 10px 4px 0;
-  vertical-align: baseline;
-  white-space: nowrap;
-}
-
-.horizontal-bar-graph-value {
-  display: table-cell;
-  padding: 3px 0;
-  vertical-align: baseline;
-  width: 100%;
-}
-
-.horizontal-bar-graph-value-bar {
-  background: silver;
-  
-  padding: 4px 4px 3px;
-  height: 2em;
-  text-align: right;
-  color: white;
-  overflow: visible;
-  display: inline-block;
-  white-space: nowrap;
-  -webkit-font-smoothing: antialiased;
-}
-
-
-#my-graph{
-    margin-left: 20%;
-}
 
 
 
