@@ -8,13 +8,13 @@ body{
     /*background-color:#eceff1;*/
     /*filter: blur(2px);*/
     font-family: 'Roboto Slab', serif;
-     background-image: url("../images/cali1.jpg");
+    background-image: url("../images/cali1.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
+    line-height: 140%;
     z-index: -1;
     
 }
@@ -55,19 +55,24 @@ h1{
     width: 50%;
     margin-left: 26%;
     font-weight: 600;
-    line-height: 170%;
+    
 }
 .aboutMe{
     display: inline;
     margin-left: 5%;
+    /*border: 2px solid black;*/
+    background-color:#ec407a;
+    color: white;
 }
 .aboutMe:hover{
-    -webkit-transition: background-color 400ms linear;
+    /*-webkit-transition: background-color 400ms linear;
     -moz-transition: background-color 400ms linear;
     -o-transition: background-color 400ms linear;
     -ms-transition: background-color 400ms linear;
-     transition: background-color 400ms linear;
-     background-color: #ec407a;
+     transition: background-color 400ms linear;*/
+     color: white;
+     border: 2px solid white;
+    background-color: #d81b60
     
     
     
@@ -87,6 +92,21 @@ h1{
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 }
+#webby{
+    margin-left: 13%;
+}
+#download{
+    background-color:#ec407a;
+    color: white;
+    margin-top: 5%;
+    margin-left: 34%;
+}
+#download:hover{
+    /*background-color: white;
+    color: black;
+    border: 2px solid black;*/
+    background-color: #d81b60
+}
 .inUse{
     background-color: #ec407a
 }
@@ -94,6 +114,7 @@ h1{
 
 .ed2{
     margin-left: 10%;
+    padding-top: 2%;
 }
 
 
@@ -107,6 +128,15 @@ h6{
     /*padding-bottom: 10%;*/
     margin-top: -2%;
     color: #ec407a
+}
+
+#reggy{
+    margin-left: 34%;
+    padding-top: 2%;
+}
+#lead{
+    padding-bottom: 2%;
+    margin-left: 10%;
 }
 
 #general{
@@ -130,6 +160,44 @@ h5{
 }
 h3{
     text-align: center;
+}
+#bioP{
+    margin-left: 9%;
+}
+
+@media screen and (max-width: 643px) {
+    .aboutMe{
+        display: none;
+    }
+    .ed2{
+        margin-left: -10%;
+        padding-top: 2%;
+    }
+    .ed3{
+        margin-left: 0%;
+    }
+    #reggy{
+        margin-left: 22%;
+    }
+    #lead{
+        margin-left: 5%;
+    }
+    #download{
+        margin-left: 25.5%;
+    }
+   #spanner{
+       margin-left: 12%;
+   }
+   #general{
+       margin-left: 0%;
+   }
+   #gen2{
+        margin-left: 5%;
+   }
+   #webby{
+       margin-left: 18%;
+   }
+   
 }
 
 
@@ -266,7 +334,34 @@ img{
 .description{
     margin-top: -8%;
 }
+#work2{
+    margin-left: 40%;
+}
 
+@media screen and (max-width: 643px) {
+#page2{
+    margin-top: -4.8%;
+}
+
+#work2{
+    margin-left: 36%;
+}
+#logo{
+    padding-left: 0%;
+}
+.studyInfo{
+    margin-left: 2%;
+}
+#study{
+    margin-top: -10%;
+}
+#page3{
+    height: 100%;
+}
+
+
+
+}
 
 /*end portfolio*/
 #lower{
@@ -275,7 +370,7 @@ img{
 
 p{
     padding-bottom: 5%;
-    line-height: 150%;
+    
 }
 .btnYou{
     background-color: white;
@@ -317,19 +412,25 @@ p{
 h2{
     text-align: center;
 }
-#jalepinos{
-    margin-left: 34%;
-    margin-top: 2%;
-}
+
 #studyhr{
     margin-top: 2%;
-    margin-left: 10%;
-    margin-right: 60%;
+    margin-left: 40%;
+    margin-right: 40%;
 }
 #restaurant{
     width: 70%;
     margin-left: 17%;
     margin-top: -3%;
+}
+#jale{
+    margin-left: 30%;
+}
+
+@media screen and (max-width: 643px) {
+    #jale{
+    margin-left: 14%;
+}
 }
 /* study over*/
 
@@ -374,7 +475,7 @@ small{
     padding-bottom: 5%;
 }
 #shit{
-   margin-left: 42.5%;
+   margin-left: 39%;
    margin-top: 5%;
 }
 #form{
@@ -393,16 +494,29 @@ small{
 }
 
 @media screen and (max-width: 642px) {
-    small{
-        margin-left: 30%
-    }
-    #small1{
-        margin-left: 35%;
-    }
     .move {
     margin-top: -2%;
-    margin-left: -13%;
+    margin-left: -15%;
 }
+
+#logo{
+    padding-left: 0%;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+    .move{
+        margin-top: -2%;
+        margin-left: -13%;
+    }
+    #shit{
+        margin-left: 30%;
+    }
+    #p2{
+        margin-left: 12%;
+    }
+
 }
 
 /*end contact*/

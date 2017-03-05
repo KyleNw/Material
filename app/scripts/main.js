@@ -185,11 +185,15 @@ HorizontalBarGraph.prototype.draw = function() {
 };
 
 var graph = new HorizontalBarGraph('#my-graph', [
-  {label: 'Html', inner_label: 'pro', value: 100, color: '#6ea6df' },
-  {label: 'Css',  inner_label: 'pro 95%',   value: 95,  color: '#84c26d' },
-  {label: 'Blah',  inner_label: 'just okay',   value: 86,  color: '#e17a69' },
-  {label: 'Blah',  inner_label: 'just okay',   value: 93,  color: '#e17a69' },
-  {label: 'Blah',  inner_label: 'just okay',   value: 33,  color: '#e17a69' }
+  {label: 'Drinking Coffee',  inner_label: 'Expert',   value: 100,  color: '#e17a69' },
+  {label: 'Html', inner_label: 'Pro', value: 90, color: '#6ea6df' },
+  {label: 'Css',  inner_label: 'Pro',   value: 90,  color: '#84c26d' },
+  {label: 'Jquery',  inner_label: 'Pretty Okay',   value: 80,  color: '#e17a69' },
+  {label: 'Javascript',  inner_label: 'Pretty Okay',   value: 80,  color: '#6ea6df' },
+  {label: 'Php',  inner_label: 'Pretty Okay',   value: 75,  color: '#84c26d' },
+  {label: 'Word Press',  inner_label: 'Okay',   value: 65,  color: '#e17a69' },
+  {label: 'Photoshop', inner_label: 'Pro', value: 90, color: '#6ea6df' },
+  {label: 'Illustrator',  inner_label: 'Pro',   value: 90,  color: '#84c26d' }
 ]);
 graph.draw();
 
